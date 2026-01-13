@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'SF Mono', 'Fira Code', 'Consolas', 'Monaco', monospace;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    justify-content: center;
+}
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: opacity 0.2s ease;
+}
+
+.header a:hover {
+    opacity: 0.6;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    gap: 1.5rem;
+}
+
+.container a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: opacity 0.2s ease;
+}
+
+.container a:hover {
+    opacity: 0.6;
+}
+
+/* Star container positioning */
+.fixed {
+    position: fixed;
+}
+
+.inset-0 {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.pointer-events-none {
+    pointer-events: none;
+}
+
+.z-0 {
+    z-index: 0;
+}
+
+/* Star twinkle animation */
+@keyframes twinkle {
+
+    0%,
+    100% {
+        opacity: 0.2;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}
+
+/* Shooting star animation */
+@keyframes shoot {
+    0% {
+        opacity: 0;
+        transform: translateX(0) rotate(var(--angle, 30deg));
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(-200px) translateY(150px) rotate(var(--angle, 30deg));
+    }
+}
