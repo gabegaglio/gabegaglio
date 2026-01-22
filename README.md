@@ -16,10 +16,10 @@ Personal portfolio and project showcase.
 ## Projects
 
 ### [Canvit](https://gabegaglio.github.io/canvit/)
-Interactive canvas drawing application.
+Interactive canvas application.
 
 ### [Nousena](https://nousena.com)
-AI-powered productivity platform.
+Productivity dashboard.
 
 ### [Gaglio Ceramic Tile](https://gaglioceramictile.com)
 Business website for ceramic tile services.
@@ -28,23 +28,14 @@ Business website for ceramic tile services.
 Pomodoro technique timer for focused productivity.
 
 ### [Mesmer](https://gabegaglio.github.io/mesmer/)
-Visual experience application.
+Audio experience application.
 
 ---
 
 ## Tech Stack
 
 - TypeScript
-- Vite
-- CSS
-
-## Development
-
-```bash
-npm install
-npm run dev
-```
-
-## Deployment
-
-Automatically deploys to GitHub Pages via GitHub Actions on push to `main`.
+- C++
+- Python
+- SQL
+- React
