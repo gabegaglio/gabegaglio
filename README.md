@@ -2,7 +2,7 @@
 
 Personal portfolio and project showcase.
 
-🌐 **[gabegaglio.github.io](https://gabegaglio.github.io](https://gabegaglio.github.io)**
+🌐 **[gabegaglio.github.io](https://gabegaglio.github.io/gabegaglio)**
 
 ---
 
