@@ -4,11 +4,19 @@ class StarField {
     private container: HTMLDivElement
     private maxStars = 50 // Reduced from 100
     private currentStars = 0
+    private initialized = false
 
     constructor() {
+        if (!document.body) {
+            console.error('document.body not available')
+            this.container = document.createElement('div') // Initialize to avoid TS error
+            return
+        }
+        
         this.container = document.createElement('div')
         this.container.className = 'fixed inset-0 overflow-hidden pointer-events-none z-0'
         document.body.prepend(this.container)
+        this.initialized = true
 
         // Spawn stars gradually for a more dynamic feel
         this.spawnInitialStars(20)
@@ -32,6 +40,8 @@ class StarField {
     }
 
     private createStar() {
+        if (!this.initialized) return
+        
         const star = document.createElement('div')
         const size = Math.random() * 2 + 1
         const x = Math.random() * 100
@@ -57,6 +67,8 @@ class StarField {
     }
 
     private createShootingStar() {
+        if (!this.initialized) return
+        
         const shootingStar = document.createElement('div')
         const startX = Math.random() * 70 + 10 // 10-80%
         const startY = Math.random() * 30 + 5 // 5-35%
