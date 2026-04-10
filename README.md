@@ -15,17 +15,14 @@ Personal portfolio and project showcase.
 
 ## Projects
 
-### [Canvit](https://gabegaglio.github.io/canvit/)
-Interactive canvas application.
-
 ### [Nousena](https://nousena.com)
 Productivity dashboard.
 
+### [Canvit](https://gabegaglio.github.io/canvit/)
+Interactive canvas application.
+
 ### [Gaglio Ceramic Tile](https://gaglioceramictile.com)
 Business website for ceramic tile services.
-
-### [Pomotimer](https://gabegaglio.github.io/pomotimer/)
-Pomodoro technique timer for focused productivity.
 
 ### [Mesmer](https://gabegaglio.github.io/mesmer/)
 Audio experience application.
@@ -36,6 +33,7 @@ Audio experience application.
 
 - TypeScript
 - C++
+- Bash
 - Python
 - SQL
 - React
