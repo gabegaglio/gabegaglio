@@ -18,8 +18,8 @@ Personal portfolio and project showcase.
 ### [Nousena](https://nousena.com)
 Productivity dashboard.
 
-### [Canvit](https://gabegaglio.github.io/canvit/)
-Interactive canvas application.
+### [Coach Kettle](https://coachkettle.com)
+AI-integrated workout app
 
 ### [Gaglio Ceramic Tile](https://gaglioceramictile.com)
 Business website for ceramic tile services.
